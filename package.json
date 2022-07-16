@@ -1,0 +1,28 @@
+{
+  "name": "activebox",
+  "version": "1.0.0",
+  "description": "1",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valerbas/ActiveBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valerbas/ActiveBox/issues"
+  },
+  "homepage": "https://github.com/Valerbas/ActiveBox#readme",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.inner {
+    padding-top: 36px;
+    background-color: black;
+    .inner__header {
+        display: flex;
+        justify-content: space-between;
+        .inner__nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            .inner__list {
+                width: 134px;
+                .inner__link {
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.wrapper {
+    width: 77%;
+    margin: 0 auto;
+}
